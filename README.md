@@ -42,12 +42,11 @@ The optimized **LSTM** architecture (`[64, 32]` units, sequence length `30`, dro
 | **LSTM (Optimized)** | **96.3%** | **95.4%** | **94.9%** | **95.1%** | **0.978** |
 
 ### 3. Prognostic Horizon ($\alpha$-$\lambda$ Accuracy)
-* **LSTM** maintained **0.937 accuracy at $\lambda=125$ cycles** before failure (average $\alpha$-$\lambda$ accuracy: **0.887** vs. **0.853** for ANN and **0.816** for RF).
+* **LSTM** maintained **0.937 accuracy at λ = 125 cycles** before failure (average α-λ accuracy: **0.887** vs. **0.853** for ANN and **0.816** for RF).
 
 ---
 
 ## Visual Highlights
-*(Upload Figures 4, 5, and 6 into an `images/` folder in your repository)*
 * `images/figure4_feature_importance.png` — Top engineered temporal & spectral features
 * `images/figure5_training_curves.png` — Convergence & validation loss across RF, ANN, and LSTM
 * `images/figure6_roc_curves.png` — Fault detection ROC comparison (LSTM AUC = 0.978)
@@ -57,6 +56,6 @@ The optimized **LSTM** architecture (`[64, 32]` units, sequence length `30`, dro
 * **Libraries:** Pandas, NumPy, Scikit-learn, TensorFlow / Keras, SciPy, Matplotlib, Seaborn
 
 ## Contact
-* **LinkedIn:** [://linkedin.com](https://www.://linkedin.com)
+* **LinkedIn:** https://www.linkedin.com/in/adaeze-u
 * **Email:** lady.ada22@gmail.com
 
